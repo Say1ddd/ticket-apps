@@ -1,7 +1,7 @@
 const nama = prompt("Masukkan nama:");
 const umur = prompt("Masukkan umur:");
 if (umur > 13){
-    const studio = prompt("Pilih studio: \n[A] Studio A \n[B] Studio B \n[C] Studio C");
+    const studio = prompt("Pilih studio: \n[A] Studio A \n[B] Studio B \n[C] Studio C").toUpperCase();
     if (studio === "A"){
         alert(`Tiket ${nama}, Studio A, Umur ${umur}`);
     } else if (studio === "B"){
